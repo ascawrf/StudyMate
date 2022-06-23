@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Study Mate:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Study_Mate_jar</output-path>
+    <root id="archive" name="Study Mate.jar">
+      <element id="module-output" name="Study Mate" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/controlsfx-8.40.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/jfoenix-8.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/tilesfx-1.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/Tracker.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/javax.mail-api-1.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/GNButton-1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/GNAvatarView-1.0-rc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/fontawesomefx-8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/h2-1.4.196.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/GNDecorator-2.1.2-alpha.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/colors-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/javax.activation-api-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/animatefx-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/Enzo-0.3.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/studyMateSuperPackage/libs/scenicView.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

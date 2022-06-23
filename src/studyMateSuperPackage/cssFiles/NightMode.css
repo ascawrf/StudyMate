@@ -1,0 +1,44 @@
+.root { /* FOR THE MAIN ANCHORPANE*/
+
+    -fx-background-color: #383838;
+}
+
+.anchorPanes {
+-fx-background-color: #282828;
+}
+
+.ds3-tf_box { /* FOR THE TEXTFEILDS AND PASSFEILDS*/
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4 ;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: whitesmoke;
+}
+
+.ds3-label-text{ /* FOR THE CLICKABLE LABELS*/
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.ds3-label-text:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    }
+
+ .error-labels{
+ -fx-background-color: #ffffff;
+  -fx-fill: #ffffff;
+ }
+
+.ds3-pink-button{ /* FOR THE PINK BUTTONS TO CLICK*/
+    -fx-background-color: #f78c7b;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.ds3-pink-button:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}

@@ -1,0 +1,60 @@
+.ds2-sidebar{
+    -fx-background-color: grey;
+}
+.ds2-sidebar-user-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b1b1b1;
+}
+.ds2-sidebar1-button{
+    -fx-background-color: tansparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b1b1b1;
+}
+.ds2-sidebar2-button{
+    -fx-background-color:pink;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #b1b1b1;
+    -fx-border-color: rgb(22,169,250) ;
+    -fx-border-width: 2px 2px 2px;
+}
+.ds2-sidebar-button-icon{
+    -fx-text-fill: #b1b1b1;
+}
+.ds2-menubar-button{
+    -fx-background-color: #fff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.ds2-menubar2-button:hover{
+    -fx-background-color: #00ffff;
+    -fx-border-color: #000000;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.ds2-menubar1-button:hover{
+    -fx-background-color: #0099ff;
+}
+.ds2-menubar2-button-icon{
+    -fx-fill: #cccccc;
+}
+.ds2-menubar2-textfield{
+    -fx-prompt-text-fill: #b1b1b1;
+    -fx-text-fill: #000;
+}
+.ds2-menubar2-search-field-box{
+    -fx-prompt-text-fill: #b1b1b1;
+    -fx-fill: #000;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.ds2-content-area-circle-button{
+    -fx-background-color: #fff;
+    -fx-border-color: #cccccc;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 100;
+}
+.ds2-content-area-circle-button:hover{
+    -fx-background-color: #0099ff;
+    -fx-background-radius: 100px;
+
+}

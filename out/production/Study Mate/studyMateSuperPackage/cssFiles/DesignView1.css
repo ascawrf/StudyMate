@@ -1,0 +1,39 @@
+.ds1-sidebar{
+    -fx-background-color: #d5d6f2;
+}
+.ds1-sidebar-button{
+    -fx-background-color: transparent;
+}
+.ds1-sidebar-button-icon{
+    -fx-fill: grey;
+}
+.ds1-sidebar-button.text{
+    -fx-fill: grey;
+}
+.ds1-sidebar-button:hover{
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-border-color: #2bbcf5;
+    -fx-border-style: solid;
+}
+.ds1-sidebar-button:hover{
+    -fx-fill: #2bbcf5;
+}
+.ds1-sidebar-button:hover.ds1-sidebar-button.text{
+    -fx-fill: #2bbcf5;
+}
+.ds1-children-pane{
+    -fx-background-color: #f9f8fd;
+}
+.ds1-knot-icon{
+    -fx-background-color: red;
+    -fx-background-radius: 100;
+}
+.ds1-search-icon{
+    -fx-background-color: #d5d6f2;
+}
+.ds1-text-field{
+    -fx-background-radius: 20px;
+    -fx-background-color: grey;
+    -fx-fill: white;
+}
+

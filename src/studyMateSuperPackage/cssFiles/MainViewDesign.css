@@ -1,0 +1,25 @@
+.mvd-parent{
+    -fx-background-color: #ffffff;
+}
+
+.mvd-topPane{
+    -fx-background-color: #f5f5f5;
+}
+
+.mvd-closeButton{
+    -fx-fill: #00A2EA;
+}
+
+.side-barButton{
+    -fx-text-fill: #4A4A4A;
+    -fx-background-color: #ffffff;
+}
+
+
+
+.side-barButton:hover {
+    -fx-background-color: #00A2EA;
+    -fx-text-fill: #ffffff;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}

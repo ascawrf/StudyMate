@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="398.0" styleClass="linear-grad" stylesheets="@../cssFiles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studyMateSuperPackage.ControllerClasses.PeriodSelectorController">
+   <children>
+      <ComboBox fx:id="daySelector" layoutX="23.0" layoutY="68.0" onMouseClicked="#dayLoader" opacity="0.73" prefHeight="51.0" prefWidth="350.0" promptText="Select Day Here" styleClass="combo-box" stylesheets="@../cssFiles/fullpackstyling.css" />
+      <ComboBox fx:id="periodSelector" layoutX="23.0" layoutY="175.0" onMouseClicked="#periodLoader" opacity="0.73" prefHeight="51.0" prefWidth="350.0" promptText="Select Period Here" stylesheets="@../cssFiles/fullpackstyling.css" />
+      <Button fx:id="saveSelector" layoutX="135.0" layoutY="364.0" mnemonicParsing="false" onAction="#selectedPosition" prefHeight="27.0" prefWidth="134.0" styleClass="ds3-pink-button" stylesheets="@../cssFiles/DesignView3.css" text="SAVE">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

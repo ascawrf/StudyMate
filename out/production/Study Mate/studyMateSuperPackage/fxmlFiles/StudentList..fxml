@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="detailTableView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="718.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+  <columns>
+    <TableColumn fx:id="firstName" prefWidth="99.0" text="First Name" />
+    <TableColumn fx:id="LastName" prefWidth="116.0" text="Last Name" />
+      <TableColumn fx:id="Gender" prefWidth="45.0" text="Gender" />
+      <TableColumn fx:id="dateofbirth" prefWidth="90.0" text="D.O.B" />
+      <TableColumn fx:id="stage" prefWidth="87.0" text="Class" />
+      <TableColumn fx:id="wardenName" prefWidth="156.0" text="Warden Name" />
+      <TableColumn fx:id="WardenContact" prefWidth="124.0" text="Warden' s Contact" />
+  </columns>
+</TableView>

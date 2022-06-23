@@ -1,0 +1,53 @@
+
+.fb-white-background{
+    -fx-background-color: #FFFFFF;
+}
+.fb-start-button{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+.fb-text-field{
+    -fx-background-color: white;
+}
+.fb-login-button{
+    -fx-background-color: #299DFF;
+    -fx-border-color: #3f51b5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-text-fill: #ffffff;
+}
+
+.fb-login-button:hover {
+    -fx-background-color: #646464;
+    -fx-text-fill: #2bbcf5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.fb-login-pane{
+    -fx-background-color: #f5f5f5;
+}
+
+.close-button{
+    -fx-fill: #00A2EA;
+}
+
+.close-button:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.timetable-lines{
+    -fx-background-color: #2bbcf5;
+    -fx-border-color: #3f51b5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-text-fill: white;
+
+}

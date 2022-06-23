@@ -1,0 +1,82 @@
+.ds3-parent{
+    -fx-background-color: #ffffff;
+}
+.root {
+
+    -fx-background-color: #2c334b;
+}
+
+.ds3-panel{
+    -fx-background-color: #333333;
+}
+.ds3-trans-button-white-boarder{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc ;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.ds3-white_panel{
+    -fx-background-color: #ffffff;
+}
+.ds3-tf_box{
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4 ;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: whitesmoke;
+}
+.ds3-tf{
+    -fx-background-color: transparent;
+
+}
+.ds3-pink-button{
+    -fx-background-color: #f78c7b;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.ds3-pink-button:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.orange-button{
+    -fx-background-color: #FB8512;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.orange-button:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.ds3-label-text{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.ds3-label-text:hover {
+    -fx-background-color: #f78c1f;
+    -fx-fill: #2bbcf5;
+    }
+
+
+
+ .toggleButton-light{
+        -fx-background-color: #e8e8e8;
+        -fx-background-radius: 5px;
+        -fx-text-fill: #ffffff;
+    }
+
+    .toggleButton-light:hover {
+        -fx-background-color: #f78c1f;
+        -fx-fill: #2bbcf5;
+
+}

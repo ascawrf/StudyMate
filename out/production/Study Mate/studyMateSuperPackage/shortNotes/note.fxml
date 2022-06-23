@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="center" minHeight="493.0" minWidth="234.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studyMateSuperPackage.shortNotes.NoteController">
+    <HBox style="-fx-background-color: #FBEDEA; -fx-background-radius: 10; -fx-border-radius: 10;">
+        <HBox alignment="CENTER" layoutX="202.0" layoutY="10.0" maxWidth="-Infinity" minWidth="-Infinity">
+            <Label onMouseClicked="#newNote" text="+" visible="false">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font></Label>
+        </HBox>
+        <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Label text="Short Notes">
+            <font>
+               <Font name="Serif Regular" size="18.0" />
+            </font></Label>
+        </HBox>
+        <HBox alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" style="-fx-background-radius: 10; -fx-border-radius: 10;" HBox.hgrow="ALWAYS">
+            <Label onMouseClicked="#close" text="x" visible="false">
+            <font>
+               <Font name="System Bold" size="13.0" />
+            </font></Label>
+        </HBox>
+    </HBox>
+    <VBox alignment="CENTER" style="-fx-background-radius: 10;" VBox.vgrow="ALWAYS">
+        <VBox.margin>
+            <Insets />
+        </VBox.margin>
+        <TextArea fx:id="noteContents" onKeyTyped="#updateText" opacity="0.51" prefHeight="493.0" prefWidth="234.0" promptText="Write short notes here" style="-fx-background-radius: 0;" wrapText="true">
+            <padding>
+                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+            </padding>
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextArea>
+    </VBox>
+</VBox>

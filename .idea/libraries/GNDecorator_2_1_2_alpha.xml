@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GNDecorator-2.1.2-alpha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/studyMateSuperPackage/libs/GNDecorator-2.1.2-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

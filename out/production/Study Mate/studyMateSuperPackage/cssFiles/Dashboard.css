@@ -1,0 +1,15 @@
+.parent{
+    -fx-background-color: #F4F4F4;
+
+}
+
+.panel{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 0px 0px 30px 30px;
+    -fx-border-radius: 0px 0px 30px 30px;
+    -fx-border-color: #C1C1C1;
+}
+
+.buttons{
+    -fx-fill: #00A2EA;
+}
